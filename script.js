@@ -38,7 +38,7 @@ function startFloatingIcons() {
   }
 }
 
-const target = new Date("2025-10-21T00:00:00");
+const target = new Date("2025-10-22T00:00:00");
 
 const countdownInterval = setInterval(() => {
   const now = new Date();
@@ -60,4 +60,5 @@ const countdownInterval = setInterval(() => {
       String(seconds).padStart(2, "0");
   }
 }, 500);
+
 
